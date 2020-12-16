@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <title>Kontaktsidan</title>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width-device-width, initial-scale=1.0">
+       <link rel="manifest" href="manifest.json" />
+       <link rel="stylesheet" href="css/contact.css"/>
+       
+</head>
+ 
+<body>
+   <div class="wrapper"></div>
+      <!-- Navigation -->
+	  <nav class="mainNav">
+		  <ul>
+		     <li><a href="index_1.html" method="get" target="_blank">Hem</a></li> 
+	     </ul>		 
+	  </nav> 
+      <h1 class="title">PWA Demo</h1>
+      <!-- Top Container-->
+        <section class="top-container"> 
+            <div class="box">
+                <form id="messageform">
+                    <label for="fornamn"><strong>Fornamn<strong></label>
+                    <input type="text" placeholder="ange ditt fornamn">
+                    <label for="efternamn"><strong>Efternamn<strong></label>
+                    <input type="text" placeholder="ange ditt efternamn">
+                    <label for="email"><strong>Email adress<strong></label>
+                    <input type= "email" placeholder="ange din email">
+                    
+                    <label for="meddelande"><strong>Meddelande<strong></labe>
+                    <textarea id="message" placeholder="skriv ditt meddelande här" rows="6" columns="20"></textarea>
+                    
+                    <button id="sendBtn"type="submit" value="send"
+                            method="get" target="_blank"><strong>Send<strong></button>
+                        
+                </form>     
+            </div>
+        </section>
+
+		<!--Footer-->
+		<footer class="footer">
+			<div><p>Hyr Verktyg &copy; 2020 </p></div>
+		</footer>
+		
+   </div>
+ 	 <!--Wrapper ends-->
+	  <script src="js/main.js"></script> 
+</body>
+	
+</html>
